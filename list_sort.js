@@ -4,7 +4,8 @@ let sorted_arr = sort_arr(arr);
 console.log("Sortierte Liste: " + sorted_arr)
 
 // die in Javascript eingebaute sort() Methode ist verboten!
-function sort_arr(arr_to_sort) {
+export function sort_arr(arr_to_sort) {
     var arr_sorted = Array.from(arr_to_sort);
-    return arr_sorted.sort();
+
+    return arr_sorted;
 }
